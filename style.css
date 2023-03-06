@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.rate-card{
+    width: 280px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 8px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 60px;
+}
+.rate-card .star #star{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    fill:rgb(255, 119, 0);
+    padding: 10px;
+    background-color: rgb(82, 82, 82);
+}
+.rate-card .illus{
+    text-align: center;
+}
+#thank{
+    text-align: center;
+}
+#text{
+    text-align: center;
+}
+
+.rate-card h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 15px;
+    color:white;
+}
+.rate-card p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px; 
+    color: rgb(193, 193, 193);
+    line-height: 1.5;
+}
+.btn{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.rate-card .response{
+    color:rgb(255, 119, 0);
+    text-align: center;
+}
+.btn button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(82, 82, 82);
+    color:rgb(178, 178, 178);
+    cursor: pointer;
+    transition: .1s all;
+}
+.btn button:hover{
+    background-color:rgb(255, 119, 0);
+    color: white;
+}
+button{
+    width: 100%;
+    border: none;
+    background-color: rgb(255, 119, 0);
+    color:white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color:rgb(255, 119, 0);
+}
+#submit:visited{
+    background-color: white;
+    color:rgb(255, 119, 0);
+} 
+.active{
+    background-color: hsl(217, 12%, 63%)!important ;
+    color:hsl(216, 12%, 8%) !important;
+}
